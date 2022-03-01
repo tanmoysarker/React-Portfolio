@@ -21,7 +21,7 @@ class Sidebar extends Component {
             <div className="text-center">
               <div
                 className="author-img"
-                style={{ backgroundImage: "url(images/my.jpg)" }}
+                style={{ backgroundImage: "url(images/my.png)" }}
               />
               <h1 id="colorlib-logo">
                 <a href="index.html">Tanmoy Sarker</a>
