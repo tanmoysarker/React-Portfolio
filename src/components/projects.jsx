@@ -13,6 +13,81 @@ export default class Projects extends Component {
 							</div>
 						</div>
 						<div className="row">
+						<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft" onClick={() => { window.open('https://play.google.com/store/apps/details?id=com.wedevs.dokan&hl=en', '_blank', 'noopener,noreferrer') }}>
+								<div className="project" style={{backgroundImage: 'url(images/dokan.gif)'}}>
+									<div className="desc">
+										<div className="con">
+											<h3><a href="work.html">A Mobile application (Dokan)</a></h3>
+											<span>This is a mobile application for multivendor E-commerce platform</span>
+											{/* <p className="icon">
+												<span><a href="#"><i className="icon-share3" /></a></span>
+												<span><a href="#"><i className="icon-eye" /> 100</a></span>
+												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+											</p> */}
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight" onClick={() => { window.open('https://play.google.com/store/apps/details?id=com.movitpilot&hl=en', '_blank', 'noopener,noreferrer') }}>
+								<div className="project" style={{backgroundImage: 'url(images/movit.gif)'}}>
+									<div className="desc">
+										<div className="con">
+											<h3><a href="work.html">A Mobile Application (Movit)</a></h3>
+											<span>This is a ride booking mobile application for the purpose of packing and shifting of house or offices.</span>
+											{/* <p className="icon">
+												<span><a href="#"><i className="icon-share3" /></a></span>
+												<span><a href="#"><i className="icon-eye" /> 100</a></span>
+												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+											</p> */}
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="col-md-4 animate-box" data-animate-effect="fadeInTop" onClick={() => { window.open('https://play.google.com/store/apps/details?id=com.vipfourdresult&hl=en', '_blank', 'noopener,noreferrer') }}>
+								<div className="project" style={{backgroundImage: 'url(images/4d.gif)'}}>
+									<div className="desc">
+										<div className="con">
+											<h3><a href="work.html">A Mobile Application (VIP 4D)</a></h3>
+											<span>A mobile application for showing draw result of lucky draw of different companies of Malaysia. It is already available on google play store.</span>
+											{/* <p className="icon">
+												<span><a href="#"><i className="icon-share3" /></a></span>
+												<span><a href="#"><i className="icon-eye" /> 100</a></span>
+												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+											</p> */}
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="col-md-4 animate-box" data-animate-effect="fadeInTop" onClick={() => { window.open('https://play.google.com/store/apps/details?id=com.mealbrac&hl=en', '_blank', 'noopener,noreferrer') }}>
+								<div className="project" style={{backgroundImage: 'url(images/brac.gif)'}}>
+									<div className="desc">
+										<div className="con">
+											<h3><a href="work.html">A Mobile Application (BRAC)</a></h3>
+											<span>A canteen management mobile application which is being used at BRAC office Cox's bazar. This was solely done by me as a side project.</span>
+											{/* <p className="icon">
+												<span><a href="#"><i className="icon-share3" /></a></span>
+												<span><a href="#"><i className="icon-eye" /> 100</a></span>
+												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+											</p> */}
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft" onClick={() => { window.open('https://www.movit.com.my/#/', '_blank', 'noopener,noreferrer') }}>
+								<div className="project" style={{backgroundImage: 'url(images/movit-web.gif)'}}>
+									<div className="desc">
+										<div className="con">
+											<h3><a href="work.html">A Web Application (Movit)</a></h3>
+											<span>This is the web version for the pack and shift ride sharing service. This is basically for the user part where user can book their ride according to need.</span>
+											{/* <p className="icon">
+												<span><a href="#"><i className="icon-share3" /></a></span>
+												<span><a href="#"><i className="icon-eye" /> 100</a></span>
+												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+											</p> */}
+										</div>
+									</div>
+								</div>
+							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
 								<div className="project" style={{backgroundImage: 'url(images/stock.gif)'}}>
 									<div className="desc">
@@ -28,36 +103,8 @@ export default class Projects extends Component {
 									</div>
 								</div>
 							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-								<div className="project" style={{backgroundImage: 'url(images/movit.gif)'}}>
-									<div className="desc">
-										<div className="con">
-											<h3><a href="work.html">A Mobile Application</a></h3>
-											<span>This is a ride booking mobile application for the purpose of packing and shifting of house or offices.</span>
-											{/* <p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p> */}
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
-								<div className="project" style={{backgroundImage: 'url(images/4d.gif)'}}>
-									<div className="desc">
-										<div className="con">
-											<h3><a href="work.html">A Mobile Application</a></h3>
-											<span>A mobile application for showing draw result of lucky draw of different companies of Malaysia. It is already available on google play store.</span>
-											{/* <p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p> */}
-										</div>
-									</div>
-								</div>
-							</div>
+						
+							
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
 								<div className="project" style={{backgroundImage: 'url(images/weta.gif)'}}>
 									<div className="desc">
@@ -73,21 +120,7 @@ export default class Projects extends Component {
 									</div>
 								</div>
 							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-								<div className="project" style={{backgroundImage: 'url(images/movit-web.gif)'}}>
-									<div className="desc">
-										<div className="con">
-											<h3><a href="work.html">A Web Application</a></h3>
-											<span>This is the web version for the pack and shift ride sharing service. This is basically for the user part where user can book their ride according to need.</span>
-											{/* <p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p> */}
-										</div>
-									</div>
-								</div>
-							</div>
+							
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
 								<div className="project" style={{backgroundImage: 'url(images/crud.gif)'}}>
 									<div className="desc">
