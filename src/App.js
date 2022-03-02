@@ -5,7 +5,7 @@ import Introduction from './components/introduction'
 import About from './components/about'
 import Timeline from './components/timeline'
 import Gallery from './components/gallery';
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter, Switch, Route, HashRouter } from 'react-router-dom'
 import Error from './components/error'
 import Blog from './components/blog'
 import Projects from './components/projects'
@@ -29,7 +29,7 @@ const newRoute = () => {
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
       <div>
       <Sidebar/>
         <Switch>
@@ -38,7 +38,7 @@ class App extends Component {
           <Route component={Error}/>
         </Switch>
       </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
